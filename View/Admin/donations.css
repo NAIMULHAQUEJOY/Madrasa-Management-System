@@ -1,0 +1,116 @@
+body {
+    background-color: #eddded;
+    font-family: Arial, sans-serif;
+}
+.video-header {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+
+.header-video {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.header-logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100px;
+    z-index: 2;
+}
+.navigation-bar .nav-table {
+    background-color: purple;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.navigation-bar .nav-row.bg-purple {
+    background-color: purple;
+}
+
+.navigation-bar a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation-bar .nav-row.bg-purple a {
+    color: goldenrod;
+}
+
+.navigation-bar .nav-row a:hover {
+    color: #ffffff;
+    background-color: #333333;
+}
+.donations-header .donations-title {
+    color: goldenrod;
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.event-creation-section details,
+.transaction-delete-section details,
+.transaction-list-section details,
+.event-list-section details {
+    background-color: lavenderblush;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.event-creation-section summary,
+.transaction-delete-section summary,
+.transaction-list-section summary,
+.event-list-section summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+form {
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.event-list-wrapper, .transaction-list-wrapper {
+    max-height: 300px;
+    overflow: auto;
+}
+.live-search-section .live-search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.live-search-section .live-search-results {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    max-height: 150px;
+    overflow: auto;
+}
+.main-footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
